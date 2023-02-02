@@ -1,0 +1,22 @@
+*{
+    overflow-x: hidden;
+}
+
+.contenedor{
+    width:100vw;/*ocupar 100% del ancho posible de la pantalla*/
+    height:100vh;
+    background-color: aqua;
+    
+}
+
+.contenedor1{
+    width:100%;
+    background-color: red;
+    height:100vh;
+}
+
+.contenedor2{
+    width:50%;
+    height:50%;
+    background-color: purple;
+}

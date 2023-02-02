@@ -1,0 +1,12 @@
+.contenedor{
+    width: 100px;
+    height:100px;
+    background-color: aqua;
+    margin:10px;
+    display: inline-block;
+    
+}
+
+.bloque{
+    display: block;
+}

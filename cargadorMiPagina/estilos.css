@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color:#222;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	min-height: 100vh;
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+
+h2 {
+	position: absolute;
+	text-align: center;
+	top: 0;
+}
+
+.loading-container {
+	width:200px;
+	height: 250px;
+	transform-origin: bottom center;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	color:white;
+}
+
+.loader {
+    position: relative;
+    width: 164px;
+    height: 164px;
+   
+    
+    
+  }
+
+ 
+  .loader::before , .loader::after {
+    
+   
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color:rgb(8, 255, 255);
+    left: 50%;
+    top: 50%;
+    animation: rotate 1s ease-in infinite;
+}
+.loader::after {
+  width: 20px;
+  height: 20px;
+  background-color: #daf108;
+  animation: rotate 1s ease-in infinite, moveY 1s ease-in infinite ;
+}
+
+@keyframes moveY {
+  0% , 100% {top: 10%}
+  45% , 55% {top: 59%}
+  60% {top: 40%}
+}
+@keyframes rotate {
+  0% { transform: translate(-50%, -100%) rotate(0deg) scale(1 , 1)}
+  25%{ transform: translate(-50%, 0%) rotate(180deg) scale(1 , 1)}
+  45% , 55%{ transform: translate(-50%, 100%) rotate(180deg) scale(3 , 0.5)}
+  60%{ transform: translate(-50%, 100%) rotate(180deg) scale(1, 1)}
+  75%{ transform: translate(-50%, 0%) rotate(270deg) scale(1 , 1)}
+  100%{ transform: translate(-50%, -100%) rotate(360deg) scale(1 , 1)}
+}
+   
+
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer i {
+    color: red;
+}
+
+footer a {
+    color: #3c97bf;
+    text-decoration: none;
+}
+
+.main{
+    display:none;
+    opacity:0;
+    transition:opacity 2s ease-in;
+	color:white;
+}

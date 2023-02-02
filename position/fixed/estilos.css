@@ -1,0 +1,16 @@
+.cuadrado{
+    width:80%;
+    height:300px;
+    background-color: aqua;
+    position:fixed;/*se queda fijo*/
+    left:50px;/*separamos de la posicion inicial*/
+    top:100px;
+    
+}
+
+.rectangulo{
+    width:400px;
+    height:300px;
+    background-color: red;
+    margin-bottom: 50px;;
+}

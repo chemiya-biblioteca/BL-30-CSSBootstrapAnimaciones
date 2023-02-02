@@ -1,0 +1,50 @@
+
+
+
+.carousel-caption a {
+    font-size: 17px;
+    background-color: #00aeef;
+    color: black;
+    font-weight: 500;
+    padding: 13px 0px;
+    width: 100%;
+    
+    text-align: center;
+   
+    
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+.carousel-caption a:hover {
+    background-color: #000;/*al hover cambiamos el color de fondo y la letra en 3 segundos*/
+    color: #fff;
+    transition: ease-in all 3s;
+}
+
+.titlepage{
+    margin-top: 100px;
+}
+
+.read_more {
+    font-size: 17px;
+    background-color: transparent;
+    color: #7a7a7a;
+    padding: 8px 0px;
+    width: 100%;
+  
+    text-align: center;
+ 
+    border-radius: 30px;
+    border: #00aaea solid 3px;
+    text-decoration: none;
+    transition: ease-in all 2s;/*la transicion puede ir en cualquier lado*/
+}
+
+
+
+.read_more:hover {
+    background: #00aaea;
+    color: #fff ;
+    
+}

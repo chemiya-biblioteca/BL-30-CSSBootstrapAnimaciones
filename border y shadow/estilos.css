@@ -1,0 +1,7 @@
+.contenedor{
+    width:100px;
+    height:100px;
+    background-color: aqua;
+    border: 5px purple dashed;
+    box-shadow: 5px 10px #888888;
+}

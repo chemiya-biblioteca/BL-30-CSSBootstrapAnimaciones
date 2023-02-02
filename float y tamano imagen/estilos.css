@@ -1,0 +1,3 @@
+.contenedor img{
+    float:right;/*lo posiciona lo mas a la izquierda posible y los demas elementos se adaptan a la derecha*/
+}

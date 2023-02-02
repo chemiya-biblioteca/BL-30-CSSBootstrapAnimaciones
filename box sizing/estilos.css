@@ -1,0 +1,47 @@
+.cuadrado{
+    width:250px;
+    height:250px;
+    background:#90f;
+    border:10px solid black;
+    padding:10px;
+
+    box-sizing:border-box;
+}
+.cuadrado1{
+    width:250px;
+    height:250px;
+    background:#90f;
+    border:10px solid black;
+    padding:10px;
+
+   
+}
+.cuadrado2{
+    width:250px;
+    height:250px;
+    background:#90f;
+   
+   
+}
+
+/*se utiliza:
+
+
+
+*{
+     box-sizing:border-box;
+}
+
+*/
+
+/*En el box-1 tengo un width de 100px y un height de
+ 120px si yo añado un padding de 5px y un border de 2px ahora la caja va a medir 114px
+ de ancho por 134px de alto. Esto es porque le estoy sumando el padding y border.*/
+
+ /*El border box sirve para evitar lo anterior, si tu necesitas que el elemento mida
+  exactamente lo que especificaste en el width y height (100px x 120px respectivamente), 
+  con el valor border-box lo puedes hacer. Border box hace que los elementos mantengan
+  su tamaño y se usa precisamente para que el box model no se rompa.*/
+
+  /*a imagen el content tiene una medida de 86px de ancho por 106px de alto, si esto lo sumas
+   al padding y border las medidas son las mismas que especificaste en width y height (100px x 120px)*/

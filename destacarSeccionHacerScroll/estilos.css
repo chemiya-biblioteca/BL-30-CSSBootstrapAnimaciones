@@ -1,0 +1,80 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #30323d;
+  padding: 15px 20px 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 1.1rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+.navMenu {
+  flex-basis: 70%;
+  max-width: 550px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navItem {
+  padding: 7px;
+  margin: 0 0 0 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navItem:hover {
+  background-color: #484b5b;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+}
+
+.active {
+  border-bottom: 1px solid #fff;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+
+.home {
+  background-color: #9c1de7;
+}
+
+.about {
+  background-color: #28c7fa;
+}
+
+.services {
+  background-color: #f85959;
+}
+
+.downloads {
+  background-color: #107a8b;
+}
+
+.contact {
+  background-color: #fd0054;
+}
